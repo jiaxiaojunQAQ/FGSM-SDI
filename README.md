@@ -2,7 +2,9 @@
 Code for Boosting Fast Adversarial Training with LearnableAdversarial Initialization
 ## Introduction
 ![Adversarial example generation of the proposed FGSM-SDI](/imgs/pipeline.PNG)
+<p align="center">
 Adversarial example generation of the proposed FGSM-SDI
+</p>
 > In this paper, we propose a sample-dependent adversarial initialization to boost fast AT. Specifically, we adopt a generative network conditioned on a benign image and its gradient information from the target network to generate an effective initialization. In the training phase, the generative network and the target network are optimized jointly and play a game. The former learns to produce a dynamic sampledependent initialization to generate stronger adversarial examples based on the current target network. And the latter adopts the generated adversarial examples for training to improve model robustness. Compared with widely adopted random initialization fashions in fast AT, the proposed initialization overcomes the catastrophic overfitting, thus improves model robustness. Extensive experimental results demonstrate the superiority of our proposed method.
 ## Requirements
 Python3 </br>
