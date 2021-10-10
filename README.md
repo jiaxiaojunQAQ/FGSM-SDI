@@ -6,6 +6,6 @@ Code for Boosting Fast Adversarial Training with LearnableAdversarial Initializa
 Python3 </br>
 Pytorch </br>
 ## Test
-> python3.6 AA_test_cifar10.py --model_path model.pth --out_dir ./output/ --data-dir cifar-data
+> python3.6 test_FGSM_SDI.py --model_path model.pth --out_dir ./output/ --data-dir cifar-data
 ## Trained Models
 > The Trained models can be downloaded from the [Baidu Cloud](https://pan.baidu.com/s/1ZEv-7gSEI4gi64PvCnM3ww)(Extraction: 1234.) or the [Google Drive](https://drive.google.com/drive/folders/1972Yhxte4318qbpllyul5dVmvo-VpWVW?usp=sharing)
