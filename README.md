@@ -1,5 +1,5 @@
 # FGSM-SDI
-Code for [Boosting Fast Adversarial Training with LearnableAdversarial Initialization](https://arxiv.org/abs/2110.05007)
+Code for [Boosting Fast Adversarial Training with LearnableAdversarial Initialization](https://arxiv.org/abs/2110.05007)(Accepted by TIP)
 ## Introduction
 ![Adversarial example generation of the proposed FGSM-SDI](/imgs/pipeline.PNG)
 <p align="center">
