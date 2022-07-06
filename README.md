@@ -11,6 +11,10 @@ Adversarial example generation of the proposed FGSM-SDI
 ## Requirements
 Python3 </br>
 Pytorch </br>
+## Train
+> python3.6 FGSM_SDI.py  --out_dir ./output/ --data-dir cifar-data
+
+
 ## Test
 > python3.6 test_FGSM_SDI.py --model_path model.pth --out_dir ./output/ --data-dir cifar-data
 ## Trained Models
