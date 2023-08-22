@@ -37,7 +37,7 @@ def get_args():
     parser.add_argument('--momentum', default=0.9, type=float)
     parser.add_argument('--lr-min', default=0., type=float)
     parser.add_argument('--lr-max', default=0.1, type=float)
-    parser.add_argument('--factor', default=0.9, type=float)
+    parser.add_argument('--factor', default=0.5, type=float)
     parser.add_argument('--seed', default=0, type=int, help='Random seed')
     parser.add_argument('--alpha', default=8, type=float, help='Step size')
     parser.add_argument('--epsilon', default=8, type=int)
